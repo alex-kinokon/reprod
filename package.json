@@ -1,0 +1,21 @@
+{
+  "name": "reprod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "dts-bundle-generator src/index.ts --export-referenced-types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@typescript-eslint/utils": "^7.8.0",
+    "dts-bundle-generator": "9.5.1",
+    "eslint-define-config": "^1.24.1",
+    "eslint-plugin-mdx": "^3.1.5",
+    "typescript": "^5.4.5"
+  }
+}
